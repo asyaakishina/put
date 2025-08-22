@@ -42,7 +42,7 @@ const phrases = [
   { 
     english: "put up with sth", 
     russian: "смириться, примириться с чем-л.", 
-    image: "put up with sth(1).png" 
+    image: "put up with sth.png" 
   }
 ];
 
@@ -145,4 +145,5 @@ function checkAnswer() {
 }
 
 // Запуск игры
+
 startStage(1);
