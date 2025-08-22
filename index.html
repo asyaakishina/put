@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Put It Right! — Учись с игрой</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1 id="title">Put It Right! 🌟</h1>
+    <p id="round-info">Этап <span id="current-stage">1</span>/3</p>
+    
+    <div id="game-area">
+      <img id="phrase-image" src= " " alt="Картинка" />
+      <p id="english-phrase"></p>
+      <input type="text" id="user-input" placeholder="Введите ответ..." autofocus />
+      <button id="submit-btn">Проверить</button>
+    </div>
+
+    <p id="feedback"></p>
+    <p id="score">Правильно: <span id="correct-count">0</span> из <span id="total-count">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

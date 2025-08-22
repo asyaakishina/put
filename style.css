@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #2d8aff;
+}
+
+#phrase-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: 3px solid #ddd;
+}
+
+#english-phrase {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #1e90ff;
+  margin: 15px 0;
+}
+
+#user-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+#user-input:focus {
+  outline: none;
+  border-color: #2d8aff;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  background: #2d8aff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#submit-btn:hover {
+  background: #1a73e8;
+}
+
+#feedback {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
